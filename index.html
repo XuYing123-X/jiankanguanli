@@ -1,0 +1,762 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/index.css">
+    <script src="js/flexible.js"></script>
+    <title>澳洋健康管理</title>
+    <style>
+        #container {
+            display: grid;
+            /* grid-template-columns: 33.33% 33.33% 33.33%; */
+            grid-template-columns: 22.33% 32.33% 43.33%;
+            /* grid-template-rows: 33.33% 33.33% 33.33%; */
+            grid-template-rows: 38.33% 48.33% 33.33%;
+            /* padding: .373333rem .533333rem .386667rem .52rem; */
+            padding: .373333rem .533333rem 0rem .32rem;
+            grid-row-gap: 0.2rem;
+            grid-column-gap: 0.2rem;
+            grid-template-columns: 23.33% 32.33% 39.33%;
+            padding: .373333rem .533333rem 0rem .52rem;
+            grid-template-rows: 33.33% 48.33% 33.33%;
+        }
+        
+        #container .item-1 {
+            grid-column: 1 / 3;
+            grid-row: 1 / 3;
+            border-radius: 20px 10px 10px 10px;
+            background-color: #DEEBD3;
+            box-shadow: 3px 3px 3px #104C29;
+        }
+        /* 检查须知 */
+        #container .item-1 p:nth-child(1) {
+            display: inline-block;
+            padding-top: .68rem;
+            padding-left: .593333rem;
+            padding-bottom: .14rem;
+            font: bold .41rem SourceHanSansCN-Bold;
+            color: #054C29;
+        }
+        
+        #container .item-1 p:nth-child(2) {
+            display: inline-block;
+            margin-left: -0.65rem;
+            font: .173333rem SourceHanSansCN-Bold;
+            transform: scale(0.55);
+            color: #054C29;
+            padding-left: 0.4rem;
+        }
+        #container .item-1 p:nth-child(3) {
+            display: inline-block;
+            margin-left: -0.8rem;
+            font: .173333rem SourceHanSansCN-Bold;
+            transform: scale(0.55);
+            color: #054C29;
+        }
+        /* 中文一 */
+        #container .item-1 p:nth-child(4) {
+            padding-left: .593333rem;
+            font: .28rem SourceHanSansCN-Bold;
+            color: #528635;
+        }
+        /* 中文二 */
+        #container .item-1 p:nth-child(5) {
+            padding-left: .593333rem;
+            font: .28rem SourceHanSansCN-Bold;
+            color: #528635;
+        }
+        /* 箭头 */
+        #container .item-1 p:nth-child(6) img {
+            padding-left: 3.7rem;
+            padding-top: .346667rem;
+            width: .746667rem;
+            height: .64rem;
+        }
+        
+        #container .item-2 {
+            padding-top: .266667rem;
+            padding-bottom: .266667rem;
+            /* text-align: center; */
+            background-color: #DEEBD3;
+            border-radius: .133333rem;
+            border-radius: 10px;
+            box-shadow: 3px 3px 3px #104C29;
+        }
+        
+        #container .item-2 p:nth-child(1) {
+            font: bold .4rem SourceHanSansCN-Bold;
+            color: #054C29;
+            padding-left: 0.62rem;
+            /* line-height: 0.0rem; */
+            margin-bottom: -0.1rem;
+        }
+        /* 报告查询 */
+        
+        #container .item-2 p:nth-child(2) {
+            display: inline-block;
+            transform: scale(0.55);
+            font: .173333rem SourceHanSansCN-Light;
+            color: #054C29;
+            padding-left: 0.3rem;
+        }
+        
+        #container .item-2 img {
+            /* padding-left: 8px; */
+            width: .266667rem;
+            height: .226667rem;
+            margin-left: -0.5rem;
+        }
+        
+        #container .item-3 {
+            padding-top: .6rem;
+            padding-bottom: .533333rem;
+            /* text-align: center; */
+            background-color: #DEEBD3;
+            border-radius: 10px;
+            box-shadow: 3px 3px 3px #104C29;
+        }
+        /* 检查须知 箭头 */
+        
+        #container .item-3 img {
+            display: inline-block;
+            width: .266667rem;
+            height: .226667rem;
+            margin-left: -0.6rem;
+        }
+        
+        #container .item-3 p:nth-child(1) {
+            font: bold .4rem SourceHanSansCN-Bold;
+            color: #054C29;
+            padding-left: 0.62rem;
+            margin-bottom: -0.08rem;
+            /* line-height: 0.0rem; */
+        }
+        
+        #container .item-3 p:nth-child(2) {
+            display: inline-block;
+            transform: scale(0.55);
+            font: .173333rem SourceHanSansCN-Light;
+            color: #054C29;
+        }
+        
+        #container .item-3 p>img {
+            padding-left: 8px;
+        }
+        
+        #container-1 {
+            display: grid;
+            /* grid-template-columns: 25% 25% 25% 25%; */
+            /* grid-template-columns: 28% 28% 18% 19%; */
+            grid-template-columns: 27% 29% 21% 22%;
+            grid-template-columns: 27% 32% 23% 22%;
+            padding: .373333rem .533333rem .386667rem .52rem;
+            /* padding: .373333rem .5rem .386667rem .2rem; */
+            /* padding: .373333rem .533333rem .386667rem .08rem; */
+            grid-column-gap: 0.2rem;
+            grid-row-gap: 0.2rem;
+            grid-template-columns: 24% 32% 23% 19%;
+    padding: .373333rem .35rem .386667rem .15rem;
+    grid-column-gap: 0.13rem;
+    grid-row-gap: 0.13rem;
+        }
+        
+        #container-1 .item {
+            text-align: center;
+            /* border: 1px solid #e5e4e9; */
+        }
+        
+        #container-1 .item-1 {
+            /* height: 2.393333rem; */
+            background-color: #DEEBD3;
+            grid-column: 1 / 2;
+            grid-row: 1 / 3;
+            padding-top: .68rem;
+            padding-bottom: .133333rem;
+            border-radius: 20px 10px 10px 10px;
+            box-shadow: 3px 3px 3px #104C29;
+            position: relative;
+        }
+        
+        #container-1 .item-1 img:nth-child(1) {
+            /* display: block; */
+            width: 1.64rem;
+            height: 1.066667rem;
+        }
+        /* 慢病管理 */
+        
+        #container-1 .item-1 p:nth-child(2) {
+            font: bold .4rem SourceHanSansCN-Bold;
+            color: #054C29;
+            padding-top: 0.4rem;
+            line-height: .253333rem;
+        }
+        /* Chronic Disease  */
+        
+        #container-1 .item-1 span:nth-child(3) {
+            display: inline-block;
+            transform: scale(0.55);
+            /* transform-origin: 0 0; */
+            /* padding-left: 0.7rem; */
+            font: .173333rem SourceHanSansCN-Bold;
+            color: #054C29;
+            line-height: .353333rem;
+        }
+        
+        #container-1 .item-1 span:nth-child(4) {
+            display: inline-block;
+            transform: scale(0.55);
+            /* transform-origin: 0 0; */
+            margin-left: -0.65rem;
+            /* padding-left: 0.7rem; */
+            font: .173333rem SourceHanSansCN-Bold;
+            color: #054C29;
+            line-height: .353333rem;
+        }
+        /* management */
+        
+        #container-1 .item-1 p:nth-child(5) {
+            transform: scale(0.55);
+            transform-origin: 0 0;
+            padding-left: 0.8rem;
+            font: .173333rem SourceHanSansCN-Bold;
+            color: #054C29;
+            text-align: left;
+            line-height: .2rem;
+        }
+        /* 箭头 */
+        
+        #container-1 .item-1 img:last-child {
+            display: inline-block;
+            width: .253333rem;
+            height: .213333rem;
+            position: absolute;
+    top: 2.89rem;
+    /* left: 1.7rem; */
+    right: 0.2rem;
+    /* bottom: 0.15rem; */
+        }
+        
+        #container-1 .item-2 {
+            /* width: 112px; */
+            /* width: 3.0rem; */
+            background-color: #DEEBD3;
+            grid-column: 2 / 3;
+            grid-row: 1 / 3;
+            padding-top: .68rem;
+            padding-bottom: .133333rem;
+            border-radius: 10px 20px 10px 10px;
+            box-shadow: 3px 3px 3px #104C29;
+            position: relative;
+            /* margin-right: 0.1rem; */
+        }
+        /* yue */
+        
+        #container-1 .item-2 img {
+            width: 1.04rem;
+            height: 1.093333rem;
+        }
+        /* #container-1 .item-2 p:nth-child(1) {
+            font: bold .4rem SourceHanSansCN-Bold;
+            color: #054C29;
+        } */
+        /* 睡眠管理css */
+        
+        #container-1 .item-2 p:nth-child(2) {
+            font: bold .4rem SourceHanSansCN-Bold;
+            color: #054C29;
+            padding-top: 0.4rem;
+            line-height: .253333rem;
+            text-align: left;
+            padding-left: 0.5rem;
+        }
+        /* sleep */
+        
+        #container-1 .item-2 span:nth-child(3) {
+            display: inline-block;
+            transform: scale(0.55);
+            /* transform-origin: 0 0; */
+            padding-left: 0.1rem;
+            font: .173333rem SourceHanSansCN-Bold;
+            color: #054C29;
+            line-height: .353333rem;
+        }
+        
+        #container-1 .item-2 span:nth-child(4) {
+            margin-left: -0.8rem;
+            display: inline-block;
+            transform: scale(0.55);
+            /* transform-origin: 0 0; */
+            /* padding-left: 0.65rem; */
+            font: .173333rem SourceHanSansCN-Bold;
+            color: #054C29;
+            line-height: .353333rem;
+        }
+        /* 箭头 */
+        
+        #container-1 .item-2 img:last-child {
+            /* display: block; */
+            width: .253333rem;
+            height: .213333rem;
+            /* position: relative;
+            top: -0.1rem;
+            left: 0.7rem; */
+            position: absolute;
+    top: 2.8rem;
+    left: 1.9rem;
+    left: 2.2rem;
+        }
+        
+        #container-1 .item-3 {
+            padding-top: 0.3rem;
+            /* width: 84px; */
+            background-color: #DEEBD3;
+            border-radius: 10px;
+            box-shadow: 3px 3px 3px #104C29;
+            /* margin-right: 0.1rem; */
+            /* margin-bottom: 0.1rem; */
+            position: relative;
+        }
+        /* 检测中心 */
+        
+        #container-1 .item-3 p:nth-child(1) {
+            font: bold .266667rem SourceHanSansCN-Bold;
+            transform: scale(0.9);
+            transform-origin: 0 0;
+            padding-left: 0.1rem;
+            color: #054C29;
+            margin-bottom: -0.15rem;
+         
+        }
+        /* Testing Center */
+        
+        #container-1 .item-3 span:nth-child(2) {
+            display: inline-block;
+            transform: scale(0.55);
+            /* transform-origin: 0 0;
+            padding-left: 0.4rem; */
+            font: .173333rem SourceHanSansCN-Bold;
+            color: #054C29;
+            line-height: .53333rem;
+        }
+        
+        #container-1 .item-3 span:nth-child(3) {
+            display: inline-block;
+            transform: scale(0.55);
+            /* transform-origin: 0 0;
+            padding-left: 0.4rem; */
+            font: .173333rem SourceHanSansCN-Bold;
+            color: #054C29;
+            line-height: .53333rem;
+            margin-left: -0.63rem;
+        }
+        /* 箭头 */
+        
+        #container-1 .item-3 img {
+            /* display: block; */
+            width: .173333rem;
+            height: .146667rem;
+            /* padding-left: 0.9rem; */
+            position: absolute;
+    top: 1rem;
+    left: 1.6rem;
+        }
+        
+        #container-1 .item-4 {
+            position: relative;
+            padding-top: 0.3rem;
+            background-color: #DEEBD3;
+            border-radius: 10px;
+            box-shadow: 3px 3px 3px #104C29;
+            /* margin-bottom: 0.1rem; */
+            padding-bottom: 0.2rem;
+        }
+        /* 互动管理 */
+        
+        #container-1 .item-4 p:nth-child(1) {
+            font: bold .266667rem SourceHanSansCN-Bold;
+            transform: scale(0.9);
+            transform-origin: 0 0;
+            color: #054C29;
+            padding-bottom: 0.08rem;
+        }
+        /* Interactive  */
+        
+        #container-1 .item-4 p:nth-child(2) {
+            transform: scale(0.55);
+            transform-origin: 0 0;
+            padding-left: 0.4rem;
+            font: .173333rem SourceHanSansCN-Bold;
+            color: #054C29;
+            line-height: .253333rem;
+            text-align: left;
+        }
+        /* Management */
+        
+        #container-1 .item-4 p:nth-child(3) {
+            /* display: inline-block; */
+            transform: scale(0.55);
+            transform-origin: 0 0;
+            padding-left: 0.4rem;
+            font: .173333rem SourceHanSansCN-Bold;
+            color: #054C29;
+            line-height: .153333rem;
+        }
+        /* 箭头 */
+        
+        #container-1 .item-4 img:last-child {
+            width: .173333rem;
+            height: .146667rem;
+            position: absolute;
+    top: 1.04rem;
+    left: 1.4rem;
+    
+            /* position: relative;
+            top: -0.4rem;
+            left: 0.65rem; */
+        }
+        
+        #container-1 .item-5 {
+            position: relative;
+            /* height: 1.653333rem; */
+            width: 100%;
+            padding-top: 0.3rem;
+            background-color: #DEEBD3;
+            border-radius: 10px;
+            box-shadow: 3px 3px 3px #104C29;
+            margin-right: 0.1rem;
+        }
+        /* 青少年 */
+        
+        #container-1 .item-5 p:nth-child(1) {
+            font: bold .266667rem SourceHanSansCN-Bold;
+            transform: scale(0.8);
+            transform-origin: 0 0;
+            color: #054C29;
+            line-height: .353333rem;
+        }
+        /* 管理 */
+        
+        #container-1 .item-5 p:nth-child(2) {
+            font: bold .266667rem SourceHanSansCN-Bold;
+            transform: scale(0.8);
+            transform-origin: 0 0;
+            color: #054C29;
+            text-align: left;
+            /* padding-left: 0.35rem; */
+            padding-left: 0.5rem;
+            line-height: .353333rem;
+        }
+        /* youth */
+        
+        #container-1 .item-5 p:nth-child(3) {
+            font: bold .266667rem SourceHanSansCN-Bold;
+            color: #054C29;
+            transform: scale(0.65);
+            transform-origin: 0 0;
+            padding-left: 0.2rem;
+            line-height: .253333rem;
+        }
+        /* Management */
+        
+        #container-1 .item-5 p:nth-child(4) {
+            display: inline-block;
+            transform: scale(0.4);
+            transform-origin: 0 0;
+            padding-left: 0.69rem;
+            font: .173333rem SourceHanSansCN-Bold;
+            color: #054C29;
+            /* line-height: .15rem; */
+        }
+        
+        #container-1 .item-5 img {
+            width: .173333rem;
+            height: .146667rem;
+            position: absolute;
+    top: 1.4rem;
+    right: 0.5rem;
+            /* margin-left: -1.1rem; */
+        }
+        
+        #container-1 .item-6 {
+            position: relative;
+            padding-top: 0.3rem;
+            background-color: #DEEBD3;
+            border-radius: 10px;
+            box-shadow: 3px 3px 3px #104C29;
+        }
+        
+        #container-1 .item-6 p:nth-child(1) {
+            font: bold .266667rem SourceHanSansCN-Bold;
+            transform: scale(0.8);
+            transform-origin: 0 0;
+            color: #054C29;
+        }
+        
+        #container-1 .item-6 p:nth-child(2) {
+            transform: scale(0.55);
+            transform-origin: 0 0;
+            padding-left: 0.4rem;
+            font: .173333rem SourceHanSansCN-Bold;
+            color: #054C29;
+            line-height: .253333rem;
+        }
+        
+        #container-1 .item-6 p:nth-child(3) {
+            transform: scale(0.55);
+            transform-origin: 0 0;
+            /* padding-left: 0.35rem; */
+            font: .173333rem SourceHanSansCN-Bold;
+            color: #054C29;
+            line-height: .153333rem;
+        }
+        
+        #container-1 .item-6 img {
+            width: .173333rem;
+            height: .146667rem;
+            position: absolute;
+    top: 1.0rem;
+    right: 0.7rem;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box1">
+        <div class="box1-1">
+            <div class="g-head">
+
+            </div>
+            <div class="pic1">
+                <img src="./imgs/pic1.png" alt="">
+            </div>
+
+            <div class="tiao1">
+                <img src="./imgs/tiao1.png" alt="">
+            </div>
+            <div class="wen1">
+                <img src="./imgs/wen1.png" alt="">
+            </div>
+            <nav>
+                <a href="#">
+                    <img src="./imgs/pic2-1.png" alt="">
+                    <span>体检中心</span>
+                </a>
+                <a href="#">
+                    <img src="./imgs/pic2-2.png" alt="">
+                    <span>健康管理</span>
+                </a>
+                <a href="#">
+                    <img src="./imgs/pic2-3.png" alt="">
+                    <span>医疗美容</span>
+                </a>
+                <a href="#">
+                    <img src="./imgs/pic2-4.png" alt="">
+                    <span>预防接种</span>
+                </a>
+            </nav>
+            <div class="tiao2">
+                <img src="./imgs/tiao2.png" alt="">
+            </div>
+            <div class="wen2">
+                <img src="./imgs/wen2.png" alt="">
+            </div>
+
+        </div>
+
+        <!-- 第一个卡片css -->
+        <div class="box2">
+            <div class="content">
+                <span class="ti">体检中心</span>
+                <span class="zhuan">专业咨询师为您量身订制体检套餐</span>
+                <a href="#">
+                    <span class="geng">更多<img src="./imgs/bgjt1.png" alt=""></span>
+                    <!-- <span><img src="./imgs/bgjt1.png" alt=""></span> -->
+                </a>
+                <div id="container">
+                    <a href="#" class="item item-1">
+                        <p>检前须知</p>
+                        <!-- <p>Medical guidelines</p> -->
+                        <p>Medical</p>
+                        <p>guidelines</p>
+                        <p>
+                            我院长期做体检数据分析
+                        </p>
+                        <p>
+                            只为设计最适合您的体检
+                        </p>
+                        <p><img src="./imgs/bgjt3.png" alt=""></p>
+                    </a>
+                    <a href="#" class="item item-2">
+                        <p>报告查询</p>
+                        <p>Report query</p>
+                        <img src="./imgs/bgjt2.png" alt="">
+                    </a>
+                    <a href="#" class="item item-3">
+                        <p>检前须知</p>
+                        <p>Medicalguidelines</p>
+                        <img src="./imgs/bgjt2.png" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- 第二个卡片css -->
+        <div class="box3">
+            <div class="content-1">
+                <span class="jian">健康管理</span>
+                <span>专业健康评估</span>
+                <!-- <span>更多</span>
+                <span><img src="./imgs/bgjt1.png" alt=""></span> -->
+                <a href="#">
+                    <span class="geng">更多<img src="./imgs/bgjt1.png" alt=""></span>
+                    <!-- <span><img src="./imgs/bgjt1.png" alt=""></span> -->
+                </a>
+                <div id="container-1">
+                    <a href="#" class="item item-1">
+                        <img src="./imgs/xintu.png" alt="">
+                        <p>慢病管理</p>
+                        <span>Chronic</span>
+                        <span>Disease</span>
+                        <p>Management</p>
+                        <img src="./imgs/bgjt2.png" alt="">
+                    </a>
+                    <a href="#" class="item item-2">
+                        <img src="./imgs/yuetu.png" alt="">
+                        <p>睡眠管理</p>
+                        <span>Sleep</span>
+                        <span>Management</span>
+                        <p><img src="./imgs/bgjt2.png" alt=""></p>
+
+                    </a>
+                    <a href="#" class="item item-3">
+                        <p>检测中心</p>
+                        <span>Testing</span>
+                        <span>Center</span>
+                        <img src="./imgs/bgjt4.png" alt="">
+
+                    </a>
+                    <a href="#" class="item item-4">
+                        <p>互动管理</p>
+                        <p>Interactive</p>
+                        <p>Management </p>
+                        <img src="./imgs/bgjt4.png">
+                    </a>
+                    <a href="#" class="item item-5">
+                        <p>青少年</p>
+                        <p>管理</p>
+                        <p>Youth</p>
+                        <p>Management</p>
+                        <img src="./imgs/bgjt4.png">
+
+                    </a>
+                    <a href="#" class="item item-6">
+                        <p>智能穿戴</p>
+                        <p>Intelligent</p>
+                        <p>Wear</p>
+                        <img src="./imgs/bgjt4.png">
+
+                    </a>
+
+                </div>
+            </div>
+        </div>
+        <!-- 第三个卡片 -->
+        <div class="box4">
+            <div class="content-2">
+                <span class="yiliao">医疗美容</span>
+                <span>澳洋唯恩医美 发掘你的美</span>
+                <!-- <span>更多</span>
+                <span><img src="./imgs/bgjt1.png" alt=""></span> -->
+                <a href="#">
+                    <span class="geng">更多<img src="./imgs/bgjt1.png" alt=""></span>
+                    <!-- <span><img src="./imgs/bgjt1.png" alt=""></span> -->
+                </a>
+                <nav>
+                    <a href="#">
+                        <div class="nav-1">
+                            <p>订制双眼皮</p>
+                            <!-- <div class="san"> -->
+                            <span>Custom</span>
+                            <span>Double</span>
+                            <span>Eyelids</span>
+                        <!-- </div> -->
+                            <img src="./imgs/bgjt2.png">
+                        </div>
+
+                    </a>
+                    <a href="#">
+                        <div class="nav-2">
+                            <p>激光美肤</p>
+                            <span>Q-YAG</span>
+                            <img src="./imgs/bgjt2.png">
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="nav-3">
+                            <p>面部年轻化</p>
+                            
+                            <span>Facial</span>
+                            <span>Rejuvenation</span>
+                        
+                            <img src="./imgs/bgjt2.png">
+                        </div>
+                    </a>
+
+                </nav>
+
+            </div>
+        </div>
+        <!-- 第四个卡片 -->
+        <div class="box5">
+            <div class="content-3">
+                <span class="yufang">预防接种</span>
+                <!-- <span>更多</span>
+                <span><img src="./imgs/bgjt1.png" alt=""></span> -->
+                <a href="#">
+                    <span class="geng">更多<img src="./imgs/bgjt1.png" alt=""></span>
+                    <!-- <span><img src="./imgs/bgjt1.png" alt=""></span> -->
+                </a>
+                <nav>
+                    <a href="#">
+                        <div class="nav-1">
+                            <p>宫颈癌HPV</p>
+                            <span>
+                                Cervical 
+                            </span>
+                            <span>Cancer</span>
+                            <img src="./imgs/bgjt2.png">
+                        </div>
+
+                    </a>
+                    <a href="#">
+                        <div class="nav-2">
+                            <p>流感疫苗</p>
+                            <span>Influenza</span>
+                            <span>Vaccine</span>
+                            <img src="./imgs/bgjt2.png">
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="nav-3">
+                            <p>乙肝疫苗</p>
+                            <span>Hepatitis</span>
+                            <span>B</span>
+                            <span>Vaccine</span>
+                            <img src="./imgs/bgjt2.png">
+                        </div>
+                    </a>
+
+
+                </nav>
+
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
