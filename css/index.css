@@ -134,7 +134,7 @@ a {
 .content span:nth-child(2) {
   display: inline-block;
   transform: scale(0.633);
-  font: bold 7px SourceHanSansCN-Light;
+  font: bold 14px SourceHanSansCN-Light;
   color: #104C29;
 }
 .content-1 {
@@ -171,7 +171,7 @@ a {
 .content-1 span:nth-child(2) {
   display: inline-block;
   transform: scale(0.633);
-  font: bold 7px SourceHanSansCN-Light;
+  font: bold 14px SourceHanSansCN-Light;
   color: #104C29;
 }
 .content-2 {
@@ -195,7 +195,7 @@ a {
 .content-2 span:nth-child(2) {
   display: inline-block;
   transform: scale(0.633);
-  font: bold 7px SourceHanSansCN-Light;
+  font: bold 14px SourceHanSansCN-Light;
   color: #104C29;
 }
 .content-2 .geng {
@@ -270,38 +270,38 @@ a {
 }
 .box4 nav a .nav-1 p:nth-child(1) {
   padding-top: 0.3rem;
-  font: bold 0.4rem SourceHanSansCN-Medium;
+  font: bold 15px SourceHanSansCN-Medium;
   color: #176E32;
 }
 .box4 nav a .nav-1 span:nth-child(1) {
   display: inline-block;
   transform: scale(0.55);
   transform-origin: 0 0;
-  font: 0.173333rem SourceHanSansCN-Medium;
+  font: 13px SourceHanSansCN-Medium;
   color: #176E32;
 }
 .box4 nav a .nav-1 span:nth-child(2) {
   display: inline-block;
   transform: scale(0.55);
   transform-origin: 0 0;
-  font: 0.173333rem SourceHanSansCN-Medium;
+  font: 13px SourceHanSansCN-Medium;
   color: #176E32;
 }
 .box4 nav a .nav-1 span:nth-child(3) {
   display: inline-block;
   transform: scale(0.55);
   transform-origin: 0 0;
-  font: 0.173333rem SourceHanSansCN-Medium;
+  font: 13px SourceHanSansCN-Medium;
   color: #176E32;
-  margin-left: -0.65rem;
+  margin-left: -0.7rem;
 }
 .box4 nav a .nav-1 span:nth-child(4) {
   display: inline-block;
   transform: scale(0.55);
   transform-origin: 0 0;
-  font: 0.173333rem SourceHanSansCN-Medium;
+  font: 13px SourceHanSansCN-Medium;
   color: #176E32;
-  margin-left: -0.65rem;
+  margin-left: -0.7rem;
 }
 .box4 nav a .nav-2 {
   width: 2.8rem;
@@ -318,14 +318,14 @@ a {
 }
 .box4 nav a .nav-2 p:nth-child(1) {
   padding-top: 0.3rem;
-  font: bold 0.4rem SourceHanSansCN-Medium;
+  font: bold 15px SourceHanSansCN-Medium;
   color: #176E32;
 }
 .box4 nav a .nav-2 span:nth-child(2) {
   display: inline-block;
   transform: scale(0.55);
   transform-origin: 0 0;
-  font: 0.173333rem SourceHanSansCN-Medium;
+  font: 13px SourceHanSansCN-Medium;
   color: #176E32;
 }
 .box4 nav a .nav-3 {
@@ -342,21 +342,21 @@ a {
 }
 .box4 nav a .nav-3 p:nth-child(1) {
   padding-top: 0.3rem;
-  font: bold 0.4rem SourceHanSansCN-Medium;
+  font: bold 15px SourceHanSansCN-Medium;
   color: #176E32;
 }
 .box4 nav a .nav-3 span:nth-child(2) {
   display: inline-block;
   transform: scale(0.55);
   transform-origin: 0 0;
-  font: 0.173333rem SourceHanSansCN-Medium;
+  font: 13px SourceHanSansCN-Medium;
   color: #176E32;
 }
 .box4 nav a .nav-3 span:nth-child(3) {
   display: inline-block;
   transform: scale(0.55);
   transform-origin: 0 0;
-  font: 0.173333rem SourceHanSansCN-Medium;
+  font: 13px SourceHanSansCN-Medium;
   color: #176E32;
   margin-left: -0.5rem;
 }
@@ -378,23 +378,23 @@ a {
 }
 .box5 nav a .nav-1 p:nth-child(1) {
   padding-top: 0.2rem;
-  font: bold 0.4rem SourceHanSansCN-Medium;
+  font: bold 15px SourceHanSansCN-Medium;
   color: #176E32;
 }
 .box5 nav a .nav-1 span:nth-child(2) {
   display: inline-block;
   transform: scale(0.55);
   transform-origin: 0 0;
-  font: 0.173333rem SourceHanSansCN-Medium;
+  font: 13px SourceHanSansCN-Medium;
   color: #176E32;
 }
 .box5 nav a .nav-1 span:nth-child(3) {
   display: inline-block;
   transform: scale(0.55);
   transform-origin: 0 0;
-  font: 0.173333rem SourceHanSansCN-Medium;
+  font: 13px SourceHanSansCN-Medium;
   color: #176E32;
-  margin-left: -0.65rem;
+  margin-left: -0.7rem;
 }
 .box5 nav a .nav-1 img {
   width: 0.266667rem;
@@ -410,23 +410,23 @@ a {
 }
 .box5 nav a .nav-2 p:nth-child(1) {
   padding-top: 0.2rem;
-  font: bold 0.4rem SourceHanSansCN-Medium;
+  font: bold 15px SourceHanSansCN-Medium;
   color: #176E32;
 }
 .box5 nav a .nav-2 span:nth-child(2) {
   display: inline-block;
   transform: scale(0.55);
   transform-origin: 0 0;
-  font: 0.173333rem SourceHanSansCN-Medium;
+  font: 13px SourceHanSansCN-Medium;
   color: #176E32;
 }
 .box5 nav a .nav-2 span:nth-child(3) {
   display: inline-block;
   transform: scale(0.55);
   transform-origin: 0 0;
-  font: 0.173333rem SourceHanSansCN-Medium;
+  font: 13px SourceHanSansCN-Medium;
   color: #176E32;
-  margin-left: -0.65rem;
+  margin-left: -0.8rem;
 }
 .box5 nav a .nav-2 img {
   width: 0.266667rem;
@@ -442,21 +442,21 @@ a {
 }
 .box5 nav a .nav-3 p:nth-child(1) {
   padding-top: 0.2rem;
-  font: bold 0.4rem SourceHanSansCN-Medium;
+  font: bold 15px SourceHanSansCN-Medium;
   color: #176E32;
 }
 .box5 nav a .nav-3 span:nth-child(2) {
   display: inline-block;
   transform: scale(0.55);
   transform-origin: 0 0;
-  font: 0.173333rem SourceHanSansCN-Medium;
+  font: 13px SourceHanSansCN-Medium;
   color: #176E32;
 }
 .box5 nav a .nav-3 span:nth-child(3) {
   display: inline-block;
   transform: scale(0.55);
   transform-origin: 0 0;
-  font: 0.173333rem SourceHanSansCN-Medium;
+  font: 13px SourceHanSansCN-Medium;
   color: #176E32;
   margin-left: -0.7rem;
 }
@@ -464,7 +464,7 @@ a {
   display: inline-block;
   transform: scale(0.55);
   transform-origin: 0 0;
-  font: 0.173333rem SourceHanSansCN-Medium;
+  font: 13px SourceHanSansCN-Medium;
   color: #176E32;
   margin-left: -0.2rem;
 }
